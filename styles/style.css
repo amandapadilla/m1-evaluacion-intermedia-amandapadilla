@@ -34,9 +34,19 @@
     justify-content: center;
     align-items: center;
     align-content: center;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
     font-size: 30px;
     color: #ffffff;
     padding:100px;
     margin: 0;
 }
+
+@media all and (min-width: 768px){
+    .list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+}
+
