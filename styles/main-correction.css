@@ -43,10 +43,11 @@
   min-height: 100vh;
 }
 .motto {
-    width: 40%;
+  width: 40%;
   color: #ffffff;
   text-align: center;
-  font-weight: bold;
+  font-size: 30px;
+  font-weight: bolder;
 }
 .footer {
   text-align: center;
