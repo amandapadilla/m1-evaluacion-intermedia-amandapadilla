@@ -43,6 +43,7 @@
   min-height: 100vh;
 }
 .motto {
+    width: 40%;
   color: #ffffff;
   text-align: center;
   font-weight: bold;
