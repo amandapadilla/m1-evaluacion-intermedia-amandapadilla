@@ -49,9 +49,20 @@
   font-size: 30px;
   font-weight: bolder;
 }
-.footer {
-  text-align: center;
-  background-color: #ffffff;
-}
-.copy {
+
+@media all and (min-width: 768px);
+ {
+  .logo{
+    align-self: flex-start;
+    margin:20px 0 20px 30px;
+  }
+  .menu{
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    }
+
+  .motto {
+    width: 25%;
+  }
 }
